@@ -26,5 +26,10 @@ communication between people who are in trouble and people who can help.
 Grading Info
 ==========================
 Most of the projects work will be done is the source directories of
-"Server" and "Android". They will mostly be straight forward in terms
-of looking at source code.
+"Server" and "Android". 
+
+For Android please reference the path Start\app\src\main for grading the java source
+For Apache please reference the www source folder for work done
+For The server specifications please look in the documents
+For the Wyoming Law Enforcement Academy Write ups on response systems please look in documents
+For the server presentation please look in Documents
