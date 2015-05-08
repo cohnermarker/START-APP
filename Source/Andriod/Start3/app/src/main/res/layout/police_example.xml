@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_grad"
+    tools:context="com.start.MainActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/typeOfEmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="18dp"
+        android:text="What is the Nature of your emergency?"
+        android:textSize="25dp"
+        android:textColor="#ff000000"/>
+
+    <Button
+        android:id="@+id/armedRob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/typeOfEmer"
+        android:layout_alignRight="@+id/typeOfEmer"
+        android:layout_below="@+id/typeOfEmer"
+        android:layout_marginTop="26dp"
+        android:text="Armed Robbery"
+        android:background="@drawable/typebuttonshape"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"/>
+
+    <Button
+        android:id="@+id/shooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kidnapping"
+        android:background="@drawable/typebuttonshape"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/armedRob"
+        android:layout_alignStart="@+id/armedRob" />
+
+    <Button
+        android:id="@+id/other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Other"
+        android:background="@drawable/typebuttonshape"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/shooter"
+        android:layout_alignStart="@+id/shooter"
+        android:layout_alignRight="@+id/shooter"
+        android:layout_alignEnd="@+id/shooter" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shooter"
+        android:background="@drawable/typebuttonshape"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_above="@+id/other"
+        android:layout_alignLeft="@+id/other"
+        android:layout_alignStart="@+id/other"
+        android:layout_marginBottom="53dp"
+        android:layout_alignRight="@+id/other"
+        android:layout_alignEnd="@+id/other" />
+
+</RelativeLayout>

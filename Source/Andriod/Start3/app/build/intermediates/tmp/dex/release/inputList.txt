@@ -1,0 +1,5 @@
+C:\Users\Spencer\Documents\College\Start\Start3\app\build\intermediates\classes\release
+C:\Users\Spencer\Documents\College\Start\Start3\app\build\intermediates\pre-dexed\release\support-annotations-20.0.0-ce4d9143b9680f637593684714cddd08e655832d.jar
+C:\Users\Spencer\Documents\College\Start\Start3\app\build\intermediates\pre-dexed\release\internal_impl-20.0.0-85b6fc93e0c3293edaa9990f1e140729f93525fc.jar
+C:\Users\Spencer\Documents\College\Start\Start3\app\build\intermediates\pre-dexed\release\classes-e88be59faa51d05175e92dd516dddc5320dabc5c.jar
+C:\Users\Spencer\Documents\College\Start\Start3\app\build\intermediates\pre-dexed\release\classes-fc9ca989285887c47cb7e7996b3389f09b8f64d1.jar
