@@ -1,0 +1,82 @@
+﻿@model STARTv2.Models.Distress
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Distress</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.safe)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.safe)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nature)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nature)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.gps)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.gps)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.user)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cellphone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cellphone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.timerec)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.timerec)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.timeres)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.timeres)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

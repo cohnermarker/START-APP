@@ -1,0 +1,88 @@
+﻿@model STARTv2.Models.Distress
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Distress</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.safe)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.safe)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nature)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nature)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.gps)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.gps)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.user)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cellphone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cellphone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.timerec)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.timerec)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.timeres)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.timeres)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
